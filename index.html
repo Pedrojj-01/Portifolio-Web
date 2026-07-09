@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Pedro Jorge Nogueira Queiroz, desenvolvedor web e UX/UI designer em formação.">
+    <title>Pedro Jorge Nogueira Queiroz | Portfólio</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="site-header" data-header>
+        <a class="brand" href="#inicio" aria-label="Pedro Jorge Nogueira Queiroz">
+            <span class="brand__mark">PJ</span>
+            <span class="brand__text">Pedro Jorge</span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" data-nav-toggle>
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="site-nav" data-nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#formacao">Formação</a>
+            <a href="#stack">Stack</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <main id="conteudo">
+        <section class="hero" id="inicio" aria-labelledby="hero-title">
+            <div class="hero__shade"></div>
+            <div class="hero__content wrap">
+                <p class="eyebrow">Portfólio Web</p>
+                <h1 id="hero-title">Pedro Jorge Nogueira Queiroz</h1>
+                <p class="hero__role">Desenvolvedor Web & UX/UI Designer em formação</p>
+                <p class="hero__lead">Crio interfaces digitais simples, bonitas e funcionais para landing pages, sites institucionais e produtos web.</p>
+
+                <div class="hero__actions" aria-label="Ações principais">
+                    <a class="button button--primary" href="#projetos">
+                        Ver projetos
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h12m-5-5 5 5-5 5"/></svg>
+                    </a>
+                    <a class="button button--ghost" href="assets/curriculo-pedro-jorge.pdf" download>
+                        Baixar currículo
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0 4-4m-4 4-4-4"/><path d="M4 19h16"/></svg>
+                    </a>
+                    <a class="button button--ghost" href="https://www.instagram.com/pedesigner_02/" target="_blank" rel="noreferrer">
+                        Instagram
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="5" width="14" height="14" rx="4"/><circle cx="12" cy="12" r="3"/><path d="M16.5 7.5h.01"/></svg>
+                    </a>
+                </div>
+
+                <div class="hero__meta" aria-label="Destaques">
+                    <span>Fortaleza, Brasil</span>
+                    <span>Web, UX/UI e soluções digitais</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="stats wrap" aria-label="Resumo profissional">
+            <div class="stat">
+                <strong>ADS</strong>
+                <span>UniFAP 2023-2026</span>
+            </div>
+            <div class="stat">
+                <strong>UX/UI</strong>
+                <span>Certificação Google/Coursera</span>
+            </div>
+            <div class="stat">
+                <strong>3</strong>
+                <span>idiomas de trabalho</span>
+            </div>
+        </section>
+
+        <section class="section section--split wrap" id="sobre">
+            <div>
+                <p class="eyebrow">Sobre</p>
+                <h2>Design com intenção, código com clareza.</h2>
+            </div>
+            <div class="section__copy">
+                <p>Sou estudante de Análise e Desenvolvimento de Sistemas, com foco em desenvolvimento web, design de interfaces e soluções digitais. Gosto de entender o problema do cliente, organizar o fluxo da experiência e transformar ideias em produtos claros, responsivos e fáceis de usar.</p>
+                <p>Minha combinação principal é desenvolvimento, olhar de produto e comunicação com pessoas. Isso me ajuda a criar páginas que explicam bem uma ideia, conduzem o visitante e deixam o projeto pronto para evoluir.</p>
+            </div>
+        </section>
+
+        <section class="section section--band" aria-labelledby="focus-title">
+            <div class="wrap">
+                <div class="section__heading">
+                    <p class="eyebrow">Atuação</p>
+                    <h2 id="focus-title">Onde posso ajudar</h2>
+                </div>
+
+                <div class="focus-grid">
+                    <article class="focus-card focus-card--mint">
+                        <span class="focus-card__icon" aria-hidden="true"></span>
+                        <h3>Landing pages e sites</h3>
+                        <p>Páginas para apresentar serviços, captar interesse e transmitir confiança com visual limpo e navegação direta.</p>
+                    </article>
+
+                    <article class="focus-card focus-card--coral">
+                        <span class="focus-card__icon" aria-hidden="true"></span>
+                        <h3>UX/UI e documentação</h3>
+                        <p>Organização de telas, fluxos, requisitos, conteúdo e decisões de produto para reduzir ruído antes do código.</p>
+                    </article>
+
+                    <article class="focus-card focus-card--indigo">
+                        <span class="focus-card__icon" aria-hidden="true"></span>
+                        <h3>Soluções web e automações</h3>
+                        <p>Interfaces, formulários, consumo de APIs e pequenas rotinas que ajudam negócios e projetos acadêmicos a funcionar melhor.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section wrap" id="projetos">
+            <div class="section__heading section__heading--wide">
+                <p class="eyebrow">Projetos</p>
+                <h2>Cases com problema, solução e stack.</h2>
+                <p>Uma seleção para mostrar como organizo a experiência, penso nos estados da interface e conecto a parte visual com funcionalidades reais.</p>
+            </div>
+
+            <div class="project-grid">
+                <article class="project-card">
+                    <img src="assets/project-dashboard.png" alt="Prévia visual do projeto CineLog - Catálogo de filmes" loading="lazy">
+                    <div class="project-card__body">
+                        <p class="project-card__category">React Native + Expo</p>
+                        <h3>CineLog - Catálogo de filmes</h3>
+                        <p>Aplicativo com listagem de filmes e séries, busca por título ou gênero, favoritos, tela de detalhes, cadastro validado e integração com JSON Server via Axios.</p>
+
+                        <div class="project-card__notes">
+                            <div>
+                                <strong>Problema</strong>
+                                <span>Criar uma experiência simples para cadastrar, consultar, favoritar e remover títulos sem deixar o usuário perdido entre telas.</span>
+                            </div>
+                            <div>
+                                <strong>Solução</strong>
+                                <span>Fluxo com navegação por abas, feedbacks de carregamento, estados vazios, validação de formulário e operações GET, POST, PATCH e DELETE.</span>
+                            </div>
+                        </div>
+
+                        <div class="tag-list" aria-label="Tecnologias e temas">
+                            <small>React Native</small>
+                            <small>Expo</small>
+                            <small>TypeScript</small>
+                            <small>Axios</small>
+                            <small>JSON Server</small>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="assets/project-brand.png" alt="Prévia visual do projeto Portfólio pessoal" loading="lazy">
+                    <div class="project-card__body">
+                        <p class="project-card__category">PHP + UX Writing</p>
+                        <h3>Portfólio pessoal</h3>
+                        <p>Site de apresentação profissional com narrativa pessoal, currículo em PDF, projetos selecionados, stack e formulário validado.</p>
+
+                        <div class="project-card__notes">
+                            <div>
+                                <strong>Problema</strong>
+                                <span>Substituir uma página genérica por uma presença digital com conteúdo real, ritmo de leitura e foco em conversão para contato.</span>
+                            </div>
+                            <div>
+                                <strong>Solução</strong>
+                                <span>Página única responsiva, com seções claras, chamadas objetivas, assets otimizados e conteúdo editável direto no PHP.</span>
+                            </div>
+                        </div>
+
+                        <div class="tag-list" aria-label="Tecnologias e temas">
+                            <small>PHP</small>
+                            <small>HTML</small>
+                            <small>CSS</small>
+                            <small>JavaScript</small>
+                            <small>Responsivo</small>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="assets/project-commerce.png" alt="Prévia visual do projeto Interfaces para negócios locais" loading="lazy">
+                    <div class="project-card__body">
+                        <p class="project-card__category">Landing pages</p>
+                        <h3>Interfaces para negócios locais</h3>
+                        <p>Estrutura preparada para apresentar serviços, vitrines compactas, formulários de interesse e páginas institucionais.</p>
+
+                        <div class="project-card__notes">
+                            <div>
+                                <strong>Problema</strong>
+                                <span>Dar a pequenos negócios uma página enxuta, compreensível e fácil de adaptar conforme a oferta evolui.</span>
+                            </div>
+                            <div>
+                                <strong>Solução</strong>
+                                <span>Modelo modular para hero, benefícios, prova visual, CTA e contato, pensado para publicação rápida.</span>
+                            </div>
+                        </div>
+
+                        <div class="tag-list" aria-label="Tecnologias e temas">
+                            <small>UX/UI</small>
+                            <small>Landing Page</small>
+                            <small>Conteúdo</small>
+                            <small>Performance</small>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section section--band" id="formacao">
+            <div class="wrap">
+                <div class="section__heading">
+                    <p class="eyebrow">Formação</p>
+                    <h2>Base técnica, UX e comunicação.</h2>
+                </div>
+
+                <div class="timeline">
+                    <article class="timeline__item">
+                        <strong>2023-2026</strong>
+                        <h3>Análise e Desenvolvimento de Sistemas</h3>
+                        <p>Formação na UniFAP, com foco no crescimento em tecnologia, desenvolvimento e criação de soluções digitais.</p>
+                    </article>
+
+                    <article class="timeline__item">
+                        <strong>2024.2</strong>
+                        <h3>UX/UI Designer - Google/Coursera</h3>
+                        <p>Certificação voltada a experiência do usuário, interfaces, pesquisa, organização de telas e decisões de design.</p>
+                    </article>
+
+                    <article class="timeline__item">
+                        <strong>Produto</strong>
+                        <h3>Product Owner em projeto acadêmico</h3>
+                        <p>Atuação com documentação, UX, gestão no Trello e alinhamento de entregas junto ao time.</p>
+                    </article>
+
+                    <article class="timeline__item">
+                        <strong>Público</strong>
+                        <h3>Atendimento e comunicação</h3>
+                        <p>Experiência com atendimento em escritório de advocacia, desenvolvendo escuta, clareza e trato com diferentes perfis.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--skills wrap" id="stack">
+            <div>
+                <p class="eyebrow">Stack</p>
+                <h2>Tecnologias e habilidades que sustentam a entrega.</h2>
+            </div>
+            <div class="skill-groups">
+                <article class="skill-group">
+                    <h3>Desenvolvimento</h3>
+                    <ul class="skill-list">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>PHP</li>
+                        <li>React Native</li>
+                        <li>TypeScript</li>
+                        <li>Axios</li>
+                        <li>JSON Server</li>
+                    </ul>
+                </article>
+
+                <article class="skill-group">
+                    <h3>Design e produto</h3>
+                    <ul class="skill-list">
+                        <li>UX/UI Design</li>
+                        <li>Interfaces responsivas</li>
+                        <li>Jornada do usuário</li>
+                        <li>Documentação</li>
+                        <li>Trello</li>
+                        <li>Prototipação</li>
+                    </ul>
+                </article>
+
+                <article class="skill-group">
+                    <h3>Pessoas e comunicação</h3>
+                    <ul class="skill-list">
+                        <li>Atendimento ao público</li>
+                        <li>Organização</li>
+                        <li>Trabalho em equipe</li>
+                        <li>Inglês intermediário</li>
+                        <li>Espanhol intermediário</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section class="section section--workflow wrap" aria-labelledby="workflow-title">
+            <div class="section__heading">
+                <p class="eyebrow">Processo</p>
+                <h2 id="workflow-title">Como eu transformo ideia em interface.</h2>
+            </div>
+
+            <div class="workflow">
+                <article class="workflow__item">
+                    <strong>01</strong>
+                    <h3>Entender</h3>
+                    <p>Mapeio objetivo, público, conteúdo essencial e o problema que a interface precisa resolver.</p>
+                </article>
+
+                <article class="workflow__item">
+                    <strong>02</strong>
+                    <h3>Organizar</h3>
+                    <p>Transformo ideias soltas em seções, fluxos e prioridades visuais antes da implementação.</p>
+                </article>
+
+                <article class="workflow__item">
+                    <strong>03</strong>
+                    <h3>Construir</h3>
+                    <p>Desenvolvo a página ou aplicação com estrutura limpa, responsividade e interações úteis.</p>
+                </article>
+
+                <article class="workflow__item">
+                    <strong>04</strong>
+                    <h3>Ajustar</h3>
+                    <p>Reviso clareza, estados, espaçamento, navegação e detalhes que deixam a entrega mais profissional.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="contact" id="contato">
+            <div class="wrap contact__layout">
+                <div>
+                    <p class="eyebrow">Contato</p>
+                    <h2>Vamos criar uma presença web mais clara e funcional?</h2>
+                    <p>Estou disponível para conversar sobre landing pages, sites institucionais, UX/UI e soluções digitais simples.</p>
+
+                    <div class="contact-links" aria-label="Canais de contato">
+                        <a class="contact-link" href="https://www.instagram.com/pedesigner_02/" target="_blank" rel="noreferrer">
+                            <span>Instagram</span>
+                            <strong>@pedesigner_02</strong>
+                        </a>
+
+                        <a class="contact-link" href="assets/curriculo-pedro-jorge.pdf" download>
+                            <span>Currículo</span>
+                            <strong>Baixar PDF</strong>
+                        </a>
+
+                        <div class="contact-link">
+                            <span>Localização</span>
+                            <strong>Fortaleza, Brasil</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" action="#contato" method="post" novalidate data-contact-form>
+                    <div class="form-alert" data-form-alert hidden></div>
+
+                    <label>
+                        Nome
+                        <input type="text" name="name" autocomplete="name">
+                        <small data-error-for="name"></small>
+                    </label>
+
+                    <label>
+                        E-mail
+                        <input type="email" name="email" autocomplete="email">
+                        <small data-error-for="email"></small>
+                    </label>
+
+                    <label>
+                        Mensagem
+                        <textarea name="message" rows="5"></textarea>
+                        <small data-error-for="message"></small>
+                    </label>
+
+                    <button class="button button--dark" type="submit">
+                        Preparar contato
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m4 12 15-7-4 14-3-6-8-1z"/></svg>
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrap">
+            <span>© <span data-year></span> Pedro Jorge Nogueira Queiroz.</span>
+            <a href="#inicio">Voltar ao topo</a>
+        </div>
+    </footer>
+
+    <script src="assets/app.js"></script>
+</body>
+</html>
